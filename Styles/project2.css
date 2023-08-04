@@ -1,0 +1,78 @@
+h1{
+    margin: 0;
+    font-size: 150px;
+    margin-top: 70px;
+}
+
+#counter-div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+}
+
+p{
+    font-size: 100px;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+}
+
+#decrease-btn{
+    margin-right: 20px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: transparent;
+}
+
+#decrease-btn:hover{
+    cursor: pointer;
+}
+
+#reset-btn{
+    border-radius: 7px;
+    margin-right: 20px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: transparent;
+}
+
+#reset-btn:hover{
+    cursor: pointer;
+}
+
+#increase-btn{
+    border-radius: 7px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: transparent;
+}
+
+#increase-btn:hover{
+    cursor: pointer;
+}
+
+#increase-btn:active, #reset-btn:active, #decrease-btn:active{
+    background-color: beige;
+}
